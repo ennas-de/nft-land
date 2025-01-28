@@ -1,0 +1,38 @@
+[class^=status] {
+  display: inline-block;
+  padding: 0 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FCFCFD;
+}
+
+.status-green {
+  background: #45B26B;
+}
+
+.status-purple {
+  background: #9757D7;
+}
+
+.status-black {
+  background: #23262F;
+}
+
+.status-stroke-black {
+  box-shadow: inset 0 0 0 2px #E6E8EC;
+  color: #777E90;
+}
+.dark-mode .status-stroke-black {
+  box-shadow: inset 0 0 0 2px #353945;
+  color: #FCFCFD;
+}
+
+.status-stroke-green {
+  box-shadow: inset 0 0 0 2px #45B26B;
+  color: #45B26B;
+}
+
+/*# sourceMappingURL=status.css.map */

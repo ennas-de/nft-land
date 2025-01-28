@@ -1,0 +1,72 @@
+body {
+  min-width: 375px;
+  background: #FCFCFD;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.7142857143;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #23262F;
+}
+.dark-mode {
+  background: #141416;
+  color: #FCFCFD;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg,
+img {
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1179px) {
+  .desktop-hide {
+    display: none !important;
+  }
+}
+.desktop-show {
+  display: none !important;
+}
+@media only screen and (max-width: 1179px) {
+  .desktop-show {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 1179px) {
+  .desktop-text-right {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .tablet-hide {
+    display: none !important;
+  }
+}
+.tablet-show {
+  display: none !important;
+}
+@media only screen and (max-width: 1023px) {
+  .tablet-show {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
+.mobile-show {
+  display: none !important;
+}
+@media only screen and (max-width: 767px) {
+  .mobile-show {
+    display: block !important;
+  }
+}
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,4 @@
+
+export const TRANSACTIONPOOLCOUNT = 50;
+
+export const TRANSACTIONPOOLMAPCOUNT = 100;

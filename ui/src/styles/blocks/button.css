@@ -1,0 +1,126 @@
+[class^=button] {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 24px;
+  background: #4437ff;
+  border-radius: 24px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  color: #FCFCFD;
+  transition: all 0.2s;
+}
+[class^=button]:hover {
+  background: rgb(20.315, 4, 255);
+}
+[class^=button].disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+[class^=button].done {
+  background: #B1B5C3;
+}
+[class^=button].loading {
+  background: rgb(15.1775, 0, 233.5);
+  font-size: 0;
+}
+[class^=button].error {
+  box-shadow: 0 0 0 2px #E6E8EC inset;
+  background: none;
+  color: #EF466F;
+}
+.dark-mode [class^=button].error {
+  box-shadow: 0 0 0 2px #777E90 inset;
+}
+
+[class^=button] svg {
+  fill: #FCFCFD;
+}
+[class^=button]:not([class^=button-circle]) svg:first-child {
+  margin-right: 15px;
+}
+[class^=button]:not([class^=button-circle]) svg:last-child {
+  margin-left: 15px;
+}
+
+.button-stroke {
+  background: none;
+  box-shadow: 0 0 0 2px #E6E8EC inset;
+  color: #23262F;
+}
+.button-stroke svg {
+  fill: #23262F;
+  transition: fill 0.2s;
+}
+.button-stroke:hover {
+  background: #4437ff;
+  box-shadow: 0 0 0 2px #4437ff inset;
+  color: #FCFCFD;
+}
+.button-stroke:hover svg {
+  fill: #FCFCFD;
+}
+.dark-mode .button-stroke {
+  box-shadow: 0 0 0 2px #353945 inset;
+  color: #FCFCFD;
+}
+.dark-mode .button-stroke svg {
+  fill: #FCFCFD;
+}
+.dark-mode .button-stroke:hover {
+  box-shadow: 0 0 0 2px #4437ff inset;
+}
+
+.button-pink {
+  background: #EF466F;
+}
+.button-pink:hover {
+  background: rgb(228.0746268657, 19.7253731343, 70.271641791);
+}
+
+.button-small {
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 16px;
+  font-size: 14px;
+}
+
+.button-circle-stroke {
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #E6E8EC inset;
+  background: transparent;
+  transition: all 0.2s;
+}
+.button-circle-stroke svg {
+  fill: #777E90;
+  transition: fill 0.2s;
+}
+.button-circle-stroke:hover {
+  background: #4437ff;
+  box-shadow: 0 0 0 2px #4437ff inset;
+}
+.button-circle-stroke:hover svg {
+  fill: #FCFCFD;
+}
+.dark-mode .button-circle-stroke {
+  box-shadow: 0 0 0 2px #353945 inset;
+}
+.dark-mode .button-circle-stroke:hover {
+  background: #353945;
+}
+
+.button-circle-stroke.button-small {
+  flex: 0 0 40px;
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=button.css.map */

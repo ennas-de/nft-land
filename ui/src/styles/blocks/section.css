@@ -1,0 +1,61 @@
+.section-bg {
+  background: url(/images/content/section-background.webp) no-repeat center center;
+  background-size: cover;
+}
+.dark-mode .section-bg {
+  background: url(/images/content/section-background-dark.webp) no-repeat center center;
+  background-size: cover;
+}
+
+.section-bg-partners {
+  background: url(/images/content/section-background-partner.webp) no-repeat center center;
+  background-size: cover;
+}
+.dark-mode .section-bg-partners {
+  background: url(/images/content/section-background-partner.webp) no-repeat center center;
+  background-size: cover;
+}
+
+[class^=section] {
+  padding: 100px 0;
+}
+@media only screen and (max-width: 1339px) {
+  [class^=section] {
+    padding: 90px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  [class^=section] {
+    padding: 60px 0;
+  }
+}
+
+.section-pb {
+  padding-top: 0;
+}
+@media only screen and (max-width: 1179px) {
+  .section-pb {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-pb {
+    padding-top: 0;
+  }
+}
+
+.section-pt80 {
+  padding-top: 80px;
+}
+@media only screen and (max-width: 1179px) {
+  .section-pt80 {
+    padding-top: 64px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-pt80 {
+    padding-top: 32px;
+  }
+}
+
+/*# sourceMappingURL=section.css.map */
